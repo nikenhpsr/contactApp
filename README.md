@@ -1,38 +1,27 @@
-# Welcome to Remix!
+# Contact App
 
-- [Remix Docs](https://remix.run/docs)
+Contact App is a powerful and easy-to-use application that allows you to manage your contacts. With Contact App, you can search for contacts, add new ones, edit existing ones, delete them, and even add them to your favourites.
 
-## Development
+## Features
 
-From your terminal:
+- **Search**: Easily find the contacts you're looking for.
+- **Add Contacts**: Add new contacts to your list.
+- **Edit Contacts**: Update contact information as needed.
+- **Delete Contacts**: Remove contacts from your list.
+- **Favourites**: Add important contacts to your favourites for quick access.
 
-```sh
-npm run dev
+## Built With
+
+- **TypeScript**: Contact App is built with TypeScript, providing a robust typing system that helps ensure code quality and maintainability.
+- **Bun**: We use Bun for building and managing the application, ensuring a smooth development experience.
+- **Remix**: The application is built on the Remix framework, providing a solid foundation for modern web applications.
+
+## Getting Started
+
+To get started with Contact App, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/nikenhpsr/contactApp.git
+cd contact-app
+bun install
 ```
-
-This starts your app in development mode, rebuilding assets on file changes.
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/server`
-- `build/client`
